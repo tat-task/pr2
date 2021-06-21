@@ -3,8 +3,8 @@
 exports.config = {
   //TAT Selenium GRID
   //seleniumAddress: 'http://selenium-grid.sebank.se:4446/wd/hub',
-  //seleniumAddress: 'http://localhost:4545/wd/hub',
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  seleniumAddress: 'http://localhost:4545/wd/hub',
+  //seleniumAddress: 'http://localhost:4444/wd/hub',
   // Capabilities to be passed to Selenium GRID
   capabilities: {
     'browserName': 'chrome',
