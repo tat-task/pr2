@@ -43,7 +43,7 @@ exports.config = {
 
     jasmine.getEnv().addReporter({
       specDone: function (result) {
-        if (result.status == 'failed') {
+       // if (result.status == 'failed') {
           browser.getCapabilities().then(function (caps) {
             var browserName = caps.get('browserName');
 
@@ -53,7 +53,7 @@ exports.config = {
               stream.end();
             });
           });
-        }
+        //}
       }
     });
   },
@@ -77,7 +77,7 @@ exports.config = {
         testBrowser: browserName,
         browserVersion: browserVersion,
         modifiedSuiteName: false,
-        screenshotsOnlyOnFailure: true,
+        screenshotsOnlyOnFailure: false,
         testPlatform: platform
       };
       new HTMLReport().from('./report/xmlresults.xml', testConfig);

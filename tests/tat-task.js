@@ -56,7 +56,7 @@ describe('TAT task testing', function () {
         
         pimpage.adddriverLic(driverLic.v);
         //pimpage.addnationality(nationality.v);
-       // pimpage.clickSave();
+        pimpage.clickSave();
         browser.sleep(5000)
         
     });
