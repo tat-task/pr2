@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "protractor ./conf/conf_tat-task.js",
-    "mylocal": "protractor ./conf/conf.js",
+    "mylocal": "protractor ./conf/conf.js"
   },
   "author": "Antanas",
   "license": "ISC",
