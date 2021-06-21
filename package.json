@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "TAT task Demo",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "protractor ./conf/conf_tat-task.js",
+    "mylocal": "protractor ./conf/conf.js",
+  },
+  "author": "Antanas",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^7.0.0",
+    "protractor-html-reporter-2": "^1.0.4"
+  }
+}
