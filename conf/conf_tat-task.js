@@ -43,7 +43,7 @@ exports.config = {
 
     jasmine.getEnv().addReporter({
       specDone: function (result) {
-        if (result.status === 'failed2') {
+        if (result.status == 'failed') {
           browser.getCapabilities().then(function (caps) {
             var browserName = caps.get('browserName');
 
